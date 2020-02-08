@@ -5,28 +5,29 @@ body {
   margin: 2em;
 }
 
-h1 {
-  font-style: bold;
-  color: #373fff;
-}
-
 ul {
   list-style-type: none;
   position: fixed;
 }
 
 li {
+  font-weight: bold;
+  color: #a57fa8;
+
   margin: 4rem;
-  padding: .5rem;
+  padding: 0.5rem;
   display: inline;
   border-bottom: 3px dotted #c4abc6;
 }
 
-.nav a:link, .nav a:visited{
+.nav a:link,
+.nav a:visited {
   text-decoration: none;
-  color: #c4abc6
+  color: #c4abc6;
+  font-weight: normal;
 }
 
-.nav a:hover{
+.nav a:hover {
   color: #a57fa8;
+  font-weight: bold;
 }
