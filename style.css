@@ -27,7 +27,7 @@ nav a:visited {
   font-weight: normal;
 }
 
-.nav a:hover {
+.nav a:hover, h1 {
   color: #a57fa8;
   font-weight: bold;
 }
