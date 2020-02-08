@@ -34,10 +34,9 @@ nav a:visited {
 
 footer {
   position: fixed;
-  left: 0;
+  left: 85%;
   bottom: 0;
   width:100%; 
-  text-align:center; 
   padding:2rem
 }
 
