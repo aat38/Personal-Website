@@ -9,3 +9,14 @@ h1 {
   font-style: italic;
   color: #373fff;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 4rem;
+  position: fixed;
+}
+
+li {
+  display: inline;
+}
