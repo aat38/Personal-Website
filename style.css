@@ -20,19 +20,20 @@ li {
   border-bottom: 3px dotted #c4abc6;
 }
 
- a:link,
- a:visited {
+nav a:link,
+nav a:visited {
   text-decoration: none;
   color: #c4abc6;
   font-weight: normal;
 }
 
-.nav a:hover,
-h1 {
-/*   color: #a57fa8; */
+.nav a:hover {
+  color: #a57fa8;
   font-weight: bold;
 }
-
+h1 {
+  font-weight: bold;
+}
 footer {
   position: fixed;
   left: 85%;
@@ -56,9 +57,18 @@ footer img:hover {
 
 .statement:hover {
   color: white;
-  text-shadow: 0 0 5px #583d5a, 0 0 7px #6e4c71,0 0 18px #895f8d,0 0 20px #c4abc6;
+  text-shadow: 0 0 5px #583d5a, 0 0 7px #6e4c71, 0 0 18px #895f8d,
+    0 0 20px #c4abc6;
 }
 
-tr,th,td {
+tr,
+th,
+td {
   padding: 1.2rem;
+}
+
+td a{
+  text-decoration-style	: wavy;
+  color: #a57fa8;
+  font-weight: normal;
 }
