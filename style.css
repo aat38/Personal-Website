@@ -29,7 +29,7 @@ nav a:visited {
 
 .nav a:hover,
 h1 {
-  color: #a57fa8;
+/*   color: #a57fa8; */
   font-weight: bold;
 }
 
@@ -59,4 +59,6 @@ footer img:hover {
   text-shadow: 0 0 5px #583d5a, 0 0 7px #6e4c71,0 0 18px #895f8d,0 0 20px #c4abc6;
 }
 
-
+tr,th,td {
+  padding: 1.2rem;
+}
