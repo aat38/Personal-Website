@@ -32,11 +32,11 @@
       <div class="statement" onclick="eval(this)">
         I used to be a rodent brain surgeon
       </div>
-      <div class="revealCorrect" style="display:none;">
-        You guessed it!
+      <div class="revealCorrect" style="display:none;font-weight:bold;padding:2rem;color: #a57fa8;">
+        Congrats! You spotted the lie!
       </div>
-      <div class="revealFalse" style="display:none;">
-        False! I don't have my PhD
+      <div class="revealFalse" style="display:none;font-weight:bold;padding:2rem;color: #a57fa8;">
+        This is actually true! What isn't true is my having a PhD.
       </div>
     </section>
     <footer>
@@ -51,9 +51,12 @@
   <script>
     function eval(statement) {
       if (statement.id == "false") {
-        document.getElementsByClassName("revealFalse").style = 'display:""';
+        document.getElementsByClassName("revealCorrect")[0].style.display=''
+        document.getElementsByClassName("revealFalse")[0].style.display='none'
+
       } else {
-        document.getElementsByClassName("revealCorrect").style = 'display:""';
+        document.getElementsByClassName("revealFalse")[0].style.display=''
+        document.getElementsByClassName("revealCorrect")[0].style.display='none'
       }
     }
   </script>
