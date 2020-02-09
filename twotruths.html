@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/twotruths.css" />
     <script src="/script.js" defer></script>
   </head>
   <body>
@@ -22,20 +23,20 @@
       <h1>
         Select one of the following statements about me that you think is a lie
       </h1>
-      <div class = "statement" onclick="eval(this)">
+      <div class="statement" onclick="eval(this)">
         The first GUI I ever made was for monkeys
       </div>
-      <div class = "statement" id="false" onclick="eval(this)">
+      <div class="statement" id="false" onclick="eval(this)">
         I have my PhD
       </div>
-      <div class = "statement" onclick="eval(this)">
+      <div class="statement" onclick="eval(this)">
         I used to be a rodent brain surgeon
       </div>
-      <div class = "revealCorrect">
-        You guessed it!       
+      <div class="revealCorrect" style="display:none;">
+        You guessed it!
       </div>
-      <div class = "revealCorrect">
-        You guessed it!       
+      <div class="revealFalse" style="display:none;">
+        False! I don't have my PhD
       </div>
     </section>
     <footer>
@@ -49,11 +50,10 @@
   </body>
   <script>
     function eval(statement) {
-      if (statement.id=="false"){
-        console.log("you got it right")
-      }
-      else {
-        console.log("ur dumb")
+      if (statement.id == "false") {
+        document.getElementsByClassName("revealFalse").style = 'display:""';
+      } else {
+        document.getElementsByClassName("revealCorrect").style = 'display:""';
       }
     }
   </script>
