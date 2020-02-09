@@ -20,8 +20,8 @@ li {
   border-bottom: 3px dotted #c4abc6;
 }
 
-nav a:link,
-nav a:visited {
+ a:link,
+ a:visited {
   text-decoration: none;
   color: #c4abc6;
   font-weight: normal;
