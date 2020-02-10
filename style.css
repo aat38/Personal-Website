@@ -8,13 +8,16 @@ body {
 
 ul {
   list-style-type: none;
+  justify-content: center;
   position: fixed;
+    background-color: white;
+
 }
 
 li {
   font-weight: bold;
   color: #a57fa8;
-
+  background-color: white;
   margin: 4rem;
   padding: 0.5rem;
   display: inline;
@@ -34,7 +37,7 @@ nav a:visited {
 }
 h1 {
   font-weight: bold;
-  text-align:center;
+  text-align: center;
 }
 footer {
   position: fixed;
@@ -69,12 +72,12 @@ td {
   padding: 1.2rem;
 }
 
-td a{
-  text-decoration-style	: wavy;
+td a {
+  text-decoration-style: wavy;
   color: #a57fa8;
   font-weight: normal;
 }
 
 .projects {
-  padding:10rem;
+  padding: 10rem;
 }
