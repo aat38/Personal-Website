@@ -21,8 +21,11 @@ ul.nav {
   border-bottom: 3px dotted #c4abc6;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
   ul.nav {
+    list-style-type: none;
+    justify-content: center;
+    position: fixed;
     margin: 0;
     padding: 0;
     background-color: white;
@@ -30,9 +33,18 @@ ul.nav {
   .nav li {
     font-weight: bold;
     color: #a57fa8;
-    display: block;
-    border-bottom: 3px dotted #c4abc6;
     width: max-content;
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+  footer {
+    position: fixed;
+    left: 85%;
+    bottom: 0;
+    top: 0;
+    width: 100%;
+    padding: 0rem;
   }
 }
 
