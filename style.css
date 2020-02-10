@@ -1,4 +1,4 @@
-/* CSS files add styling rules to your content */
+/* the following rules apply across all pages */
 
 body {
   font-family: Courier New, arial, sans-serif;
@@ -50,6 +50,8 @@ h1 {
   text-align: center;
 }
 
+/* ----------------------------*/
+
 .twoTruths {
   padding: 10rem;
   text-align: center;
@@ -93,9 +95,10 @@ td a {
 ul.courses {
   list-style-type: none;
   text-align:center;
-  padding:15rem;
+  padding-top:10rem;
 }
 
 ul.courses li {
   color:black;
+  padding:1.2rem;
 }
