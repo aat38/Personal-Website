@@ -22,15 +22,18 @@
       <div
         style=" display: flex;flex-direction: row;justify-content: center;"
       >
-        <button id="relButt" class="button-group-experience" style ="box-shadow:inset 0 0 30px #a57fa8">
+        <button id="relButt" class="button-group-experience;relevant" style ="box-shadow:inset 0 0 30px #a57fa8">
           Relative Experience
         </button>
-        <button id="irrelButt" class="button-group-experience">
+        <button id="irrelButt" class="button-group-experience;irrelevant">
           Not-so-Relative Experience
         </button>
       </div>
-      <p>
-        tttttttttttttttttttttttttttttttttttttttttttttttt
+      <p class = "relevant">
+        rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+      </p>
+      <p class ="irrelevant" style="display:none">
+        iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       </p>
     </section>
 
@@ -45,6 +48,10 @@
     <script> 
     document.getElementById("relButt").addEventListener("click", displayRel)
     document.getElementById("irrelButt").addEventListener("click", displayIrrel)
+      displayIrrel(){
+        document.getElementByClassName
+        
+      }
     </script>
   </body>
 </html>
