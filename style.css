@@ -103,6 +103,11 @@ td {
   padding: 1.2rem;
 }
 
+th {
+    font-weight: bold;
+font-size:20px;
+}
+
 td a {
   text-decoration-style: dotted;
   color: #a57fa8;
