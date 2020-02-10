@@ -4,6 +4,9 @@ body {
   font-family: Courier New, arial, sans-serif;
 }
 
+nav {
+    background-color: white;
+}
 ul.nav {
   background-color: white;
   list-style-type: none;
@@ -21,7 +24,7 @@ ul.nav {
   border-bottom: 3px dotted #c4abc6;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1400px) {
   ul.nav {
     list-style-type: none;
     justify-content: center;
