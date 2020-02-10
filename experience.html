@@ -18,7 +18,10 @@
         <li><a href="/courses.html">Notable Courses</a></li>
       </ul>
     </nav>
-    <section style="text-align:center;padding-top:10rem;">
+    <section
+      name="tables of related and unrealated experiences"
+      style="text-align:center;padding-top:10rem;"
+    >
       <div style=" display: flex;flex-direction: row;justify-content: center;">
         <button
           id="relButt"
@@ -31,12 +34,82 @@
           Not-so-Relative Experience
         </button>
       </div>
-      <p class="relPara">
-        rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
-      </p>
-      <p class="irrelPara" style="display:none">
-        iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
-      </p>
+      <div class="relPara">
+        <table name="related expereinces">
+          <thead>
+            <tr>
+              <th>
+                <h1>
+                  Position
+                </h1>
+              </th>
+              <th>
+                <h1>
+                  Employer
+                </h1>
+              </th>
+              <th>
+                <h1>
+                  Duties
+                </h1>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Research Technician</td>
+              <td>Center for Bioengineering, University of Pittsburgh</td>
+              <td>
+                Configured hardware and software systems to both implement and
+                visualize value-based choice tasks. This required the creation
+                of custom Matlab programs with two graphical user interfaces:
+                one for the participant and one for the research technician.
+                Groomed and statistically analyzed large data sets acquired from
+                two cohorts with Matlab. Automated three biological image
+                processing tasks via ImageJ scripts written in Python
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="irrelPara" style="display:none">
+        <table name="unrelated expereinces">
+          <thead>
+            <tr>
+              <th>
+                <h1>
+                  Position
+                </h1>
+              </th>
+              <th>
+                <h1>
+                  Employer
+                </h1>
+              </th>
+              <th>
+                <h1>
+                  Duties
+                </h1>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Research Technician</td>
+              <td>Center for Bioengineering, University of Pittsburgh</td>
+              <td>
+                Configured hardware and software systems to both implement and
+                visualize value-based choice tasks. This required the creation
+                of custom Matlab programs with two graphical user interfaces:
+                one for the participant and one for the research technician.
+                Groomed and statistically analyzed large data sets acquired from
+                two cohorts with Matlab. Automated three biological image
+                processing tasks via ImageJ scripts written in Python
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </section>
 
     <footer>
@@ -55,13 +128,15 @@
       function displayIrrel() {
         document.getElementsByClassName("relPara")[0].style.display = "none";
         document.getElementsByClassName("irrelPara")[0].style.display = "block";
-        document.getElementById("irrelButt").style ="box-shadow:inset 0 0 30px #a57fa8";
+        document.getElementById("irrelButt").style =
+          "box-shadow:inset 0 0 30px #a57fa8";
         document.getElementById("relButt").style = "box-shadow:''";
       }
       function displayRel() {
         document.getElementsByClassName("irrelPara")[0].style.display = "none";
         document.getElementsByClassName("relPara")[0].style.display = "block";
-        document.getElementById("relButt").style = "box-shadow:inset 0 0 30px #a57fa8";
+        document.getElementById("relButt").style =
+          "box-shadow:inset 0 0 30px #a57fa8";
         document.getElementById("irrelButt").style = "box-shadow:''";
       }
     </script>
