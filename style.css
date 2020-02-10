@@ -91,10 +91,11 @@ td a {
 }
 
 ul.courses {
-    list-style-type: none;
+  list-style-type: none;
+  text-align:center;
+  padding:15rem;
 }
 
 ul.courses li {
   color:black;
-  text-align:left;
 }
