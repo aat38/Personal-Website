@@ -4,14 +4,14 @@ body {
   font-family: Courier New, arial, sans-serif;
 }
 
-nav {
+ul.nav {
   background-color: white;
   list-style-type: none;
   justify-content: center;
   position: fixed;
 }
 
-li {
+.nav li {
   font-weight: bold;
   color: #a57fa8;
   background-color: white;
@@ -88,4 +88,13 @@ td a {
   border:#c4abc6;
   background-color: #c4abc6;
   color:white;
+}
+
+ul.courses {
+    list-style-type: none;
+}
+
+ul.courses li {
+  color:black;
+  text-align:left;
 }
