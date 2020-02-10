@@ -19,20 +19,22 @@
       </ul>
     </nav>
     <section style="text-align:center;padding-top:10rem;">
-      <div
-        style=" display: flex;flex-direction: row;justify-content: center;"
-      >
-        <button id="relButt" class="button-group-experience;relevant" style ="box-shadow:inset 0 0 30px #a57fa8">
+      <div style=" display: flex;flex-direction: row;justify-content: center;">
+        <button
+          id="relButt"
+          class="button-group-experience"
+          style="box-shadow:inset 0 0 30px #a57fa8"
+        >
           Relative Experience
         </button>
-        <button id="irrelButt" class="button-group-experience;irrelevant">
+        <button id="irrelButt" class="button-group-experience">
           Not-so-Relative Experience
         </button>
       </div>
-      <p class = "relevant">
+      <p class="relPara">
         rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
       </p>
-      <p class ="irrelevant" style="display:none">
+      <p class="irrelPara" style="display:none">
         iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
       </p>
     </section>
@@ -45,12 +47,22 @@
           height="50"
       /></a>
     </footer>
-    <script> 
-    document.getElementById("relButt").addEventListener("click", displayRel)
-    document.getElementById("irrelButt").addEventListener("click", displayIrrel)
-      displayIrrel(){
-        document.getElementByClassName
-        
+    <script>
+      document.getElementById("relButt").addEventListener("click", displayRel);
+      document
+        .getElementById("irrelButt")
+        .addEventListener("click", displayIrrel);
+      function displayIrrel() {
+        document.getElementsByClassName("relPara")[0].style.display = "none";
+        document.getElementsByClassName("irrelPara")[0].style.display = "block";
+        document.getElementById("irrelButt").style ="box-shadow:inset 0 0 30px #a57fa8";
+        document.getElementById("relButt").style = "box-shadow:''";
+      }
+      function displayRel() {
+        document.getElementsByClassName("irrelPara")[0].style.display = "none";
+        document.getElementsByClassName("relPara")[0].style.display = "block";
+        document.getElementById("relButt").style = "box-shadow:inset 0 0 30px #a57fa8";
+        document.getElementById("irrelButt").style = "box-shadow:''";
       }
     </script>
   </body>
