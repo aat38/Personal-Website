@@ -33,8 +33,8 @@
         From Previous Discipline
       </button>
     </div>
-    
-    <div class="projects" style="display:inline-block;text-align:left;">
+
+    <div class="experience" style="display:inline-block;text-align:left;">
       <table>
         <thead>
           <tr>
@@ -53,15 +53,7 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>
-              <a
-                target="_blank"
-                title="To gameplay"
-                href="http://pitt.edu/~aat38/toothAche.html"
-                >Tooth Ache</a
-              >
-            </td>
+          <tr class="relPara">
             <td>Research Technician</td>
             <td>Center for Bioengineering, University of Pittsburgh</td>
             <td>
@@ -75,8 +67,8 @@
               Matlab: Psychtoolbox, Python, ImageJ
             </td>
           </tr>
-          <tr>
-           <td>Research Technician</td>
+          <tr class="irrelPara" style="display:none">
+            <td>Research Technician</td>
             <td>Center for Bioengineering, University of Pittsburgh</td>
             <td>
               Created an electrophysiological data acquisition system for
@@ -90,8 +82,11 @@
               Cortically implanted 80+ murine animals with single shank Michigan
               Electrodes.
             </td>
+            <td>
+              Matlab: Psychtoolbox, Python, ImageJ
+            </td>
           </tr>
-          <tr>
+          <tr class="irrelPara" style="display:none">
             <td>Undergraduate Student Researcher</td>
             <td>Lab of Dr. Aizenstein, Western Psychiatric Hospital</td>
             <td>
@@ -107,9 +102,8 @@
         </tbody>
       </table>
     </div>
-    
-    
-<!--     <div class="experience" style="display:flex;text-align:left;justify-content: center;">
+
+    <!--     <div class="experience" style="display:flex;text-align:left;justify-content: center;">
       <table>
         <thead>
           <tr style="display:block;text-align:left;">
@@ -197,14 +191,18 @@
         .addEventListener("click", displayIrrel);
       function displayIrrel() {
         document.getElementsByClassName("relPara")[0].style.display = "none";
-        document.getElementsByClassName("irrelPara")[0].style.display = "block";
+        document.getElementsByClassName("irrelPara")[0].style.display = "";
+        document.getElementsByClassName("irrelPara")[1].style.display = "";
+
         document.getElementById("irrelButt").style =
           "box-shadow:inset 0 0 30px #a57fa8";
         document.getElementById("relButt").style = "box-shadow:''";
       }
       function displayRel() {
         document.getElementsByClassName("irrelPara")[0].style.display = "none";
-        document.getElementsByClassName("relPara")[0].style.display = "block";
+        document.getElementsByClassName("irrelPara")[1].style.display = "none";
+
+        document.getElementsByClassName("relPara")[0].style.display = "";
         document.getElementById("relButt").style =
           "box-shadow:inset 0 0 30px #a57fa8";
         document.getElementById("irrelButt").style = "box-shadow:''";

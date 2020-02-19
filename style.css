@@ -100,9 +100,9 @@ h1 {
     0 0 20px #c4abc6;
 }
 
-.projects tr,
-.projects th,
-.projects td {
+ tr,
+ th,
+ td {
   padding: 1.2rem;
   width: 20rem
 }
