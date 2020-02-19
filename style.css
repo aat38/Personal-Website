@@ -27,6 +27,12 @@ ul.nav {
   border-bottom: 3px dotted #c4abc6;
 }
 
+table{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 @media screen and (max-width: 1400px) {
   ul.nav {
     list-style-type: none;
