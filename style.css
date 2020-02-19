@@ -106,12 +106,13 @@ h1 {
     0 0 20px #c4abc6;
 }
 
-tr,
-th,
-td {
+.projects tr,
+.projects th,
+.projects td {
   padding: 1.2rem;
   width: 20rem
 }
+
 
 th {
   font-weight: bold;
