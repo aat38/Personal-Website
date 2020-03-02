@@ -1,8 +1,8 @@
-.projects{
+.projects {
   padding: 2rem;
 }
 @media (max-width: 750px) {
-  body{
+  body {
     font-size: 70%;
   }
   h1 {
@@ -18,9 +18,8 @@
   }
 }
 
-
- @media (min-width: 751px) {
-  body{
+@media (min-width: 751px) {
+  body {
     font-size: 90%;
   }
   h1 {
@@ -36,10 +35,8 @@
   }
 }
 
-
-
- @media (min-width: 1000px) {
-  body{
+@media (min-width: 1000px) {
+  body {
     font-size: 100%;
   }
   h1 {
@@ -55,9 +52,8 @@
   }
 }
 
-
- @media (min-width: 1200px) {
-  body{
+@media (min-width: 1200px) {
+  body {
     font-size: 100%;
   }
   h1 {
@@ -73,8 +69,8 @@
   }
 }
 
- @media (min-width: 1400px) {
-  body{
+@media (min-width: 1400px) {
+  body {
     font-size: 100%;
   }
   h1 {
