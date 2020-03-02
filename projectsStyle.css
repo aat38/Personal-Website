@@ -1,16 +1,16 @@
 @media (max-width: 576px){
   h1{
-    font-size: 90%;
+    font-size: 80%;
   }
-  a.navbar-brand{
-    Width: 50%
-  }
+/*   .navbar-brand img{
+    max-width: 50%
+  } */
 }
 @media (max-width: 800px){
   h1{
     font-size: 130%;
   }
-  a.navbar-brand{
-    Width: 80%
-  }
+/*   .navbar-brand img{
+    max-width: 80%
+  } */
 }
