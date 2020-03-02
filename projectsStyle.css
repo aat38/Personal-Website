@@ -6,7 +6,9 @@
     max-width: 60%;
   }
   .navbar-toggler {
+    position: fixed;
     top: 3%;
+    right: 5%;
   }
 }
 @media (max-width: 800px) {
@@ -16,10 +18,10 @@
   .navbar-brand img {
     max-width: 80%;
   }
+  .navbar-toggler {
+    position: fixed;
+    top: 5%;
+    right: 2%;
+  }
 }
 
-.navbar-toggler {
-  position: fixed;
-  top: 5%;
-  right: 5%;
-}
