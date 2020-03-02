@@ -1,3 +1,14 @@
+a {
+  color: #ffb0cc;
+  font-weight: bold;
+}
+a:visited{
+  color: #ffbd67;
+ font-weight: bold;
+}
+a:hover {
+  
+}
 .projects {
   padding: 2rem;
 }
@@ -35,7 +46,13 @@
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 980px) {
+  .navbar-brand img {
+    max-width: 120%;
+  }
+}
+
+@media (min-width: 1200px) {
   body {
     font-size: 100%;
   }
@@ -43,7 +60,7 @@
     font-size: 240%;
   }
   .navbar-brand img {
-    max-width: 170%;
+    max-width: 200%;
   }
   .navbar-toggler {
     position: fixed;
@@ -71,7 +88,10 @@
 
 @media (min-width: 1400px) {
   body {
-    font-size: 100%;
+    font-size: 110%;
+  }
+  li {
+    padding:1.2rem;
   }
   h1 {
     font-size: 240%;
@@ -83,5 +103,14 @@
     position: fixed;
     top: 5%;
     right: 4%;
+  }
+}
+
+@media (min-width: 1700px) {
+  li {
+    padding:2rem;
+  }
+  h1 {
+    font-size: 250%;
   }
 }
