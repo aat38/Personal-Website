@@ -1,4 +1,4 @@
-@media (max-width: 699px) {
+@media (max-width: 750px) {
   body{
     font-size: 70%;
   }
@@ -14,8 +14,7 @@
     right: 2%;
   }
 }
-
-@media (min-width: 700px) {
+ @media (min-width: 751px) {
   body{
     font-size: 90%;
   }
@@ -23,7 +22,7 @@
     font-size: 220%;
   }
   .navbar-brand img {
-    max-width: 75%;
+    max-width: 90%;
   }
   .navbar-toggler {
     position: fixed;
@@ -32,7 +31,7 @@
   }
 }
 
-/* @media (min-width: 880px) {
+/* @media (max-width: 880px) {
   body{
     font-size: 70%;
   }
@@ -48,7 +47,24 @@
     top: 2%;
     right: 2%;
   }
-} */
+} */ 
+
+ @media (min-width: 1200px) {
+  body{
+    font-size: 100%;
+  }
+  h1 {
+    font-size: 240%;
+  }
+  .navbar-brand img {
+    max-width: 170%;
+  }
+  .navbar-toggler {
+    position: fixed;
+    top: 5%;
+    right: 4%;
+  }
+}
 
 .projects{
   padding: 2rem;
