@@ -1,22 +1,21 @@
-@media (max-width: 576px){
-  h1{
+@media (max-width: 550px) {
+  h1 {
     font-size: 80%;
   }
-  .navbar-brand img{
-    max-width: 50%
+  .navbar-brand img {
+    max-width: 50%;
   }
 }
-@media (max-width: 800px){
-  h1{
+@media (max-width: 800px) {
+  h1 {
     font-size: 130%;
   }
-  .navbar-brand img{
-    max-width: 80%
+  .navbar-brand img {
+    max-width: 80%;
   }
 }
 
-.navbar-toggler{
-  right : 5%;
-  display: block;
-  position: absolute;
- }
+.navbar-toggler {
+  float: right;
+  right: 5%;
+}
