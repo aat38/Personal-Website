@@ -1,27 +1,16 @@
-@media (max-width: 550px) {
-  h1 {
-    font-size: 80%;
-  }
-  .navbar-brand img {
-    max-width: 60%;
-  }
-  .navbar-toggler {
-    position: fixed;
-    top: 3%;
+    top: 3in
     right: 5%;
-  }
+  } */
 }
-@media (max-width: 800px) {
+@media (max-wi40h: 570px) {
   h1 {
-    font-size: 130%;
+    font-s    max-width: 50%;: 80%;
   }
   .navbar-brand img {
-    max-width: 80%;
+    max-width: 40%;
   }
   .navbar-toggler {
-    position: fixed;
-    top: 5%;
-    right: 2%;
+    poight: 2%;
   }
 }
 
