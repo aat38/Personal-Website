@@ -3,9 +3,11 @@
     font-size: 80%;
   }
   .navbar-brand img {
-    max-width: 50%;
+    max-width: 60%;
   }
-
+  .navbar-toggler {
+    top: 3%;
+  }
 }
 @media (max-width: 800px) {
   h1 {
@@ -16,7 +18,8 @@
   }
 }
 
-.navbar-toggler{
-    display: flex;
-  align-items: right;
+.navbar-toggler {
+  position: fixed;
+  top: 5%;
+  right: 5%;
 }
