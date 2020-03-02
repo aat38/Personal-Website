@@ -16,7 +16,7 @@
   }
 }
 
-.navbar-toggler {
-  right: 5%;
-  postion: fixed;
+.navbar-toggler{
+    display: flex;
+  align-items: right;
 }
