@@ -1,13 +1,13 @@
-@media (max-width: 570px) {
+@media (max-width: 699px) {
   body{
-    font-size: 80%;
+    font-size: 70%;
   }
   h1 {
     margin-top: 5%;
     font-size: 170%;
   }
   .navbar-brand img {
-    max-width: 50%;
+    max-width: 75%;
   }
   .navbar-toggler {
     position: fixed;
@@ -16,21 +16,39 @@
   }
 }
 
-
-@media (max-width: 800px) {
+@media (min-width: 700px) {
   body{
-    font-size: 80%;
+    font-size: 90%;
+  }
+  h1 {
+    margin-top: 5%;
+    font-size: 220%;
+  }
+  .navbar-brand img {
+    max-width: 75%;
+  }
+  .navbar-toggler {
+    position: fixed;
+    top: 5%;
+    right: 4%;
+  }
+}
+
+/* @media (min-width: 880px) {
+  body{
+    font-size: 70%;
   }
   h1 {
     margin-top: 5%;
     font-size: 170%;
   }
   .navbar-brand img {
-    max-width: 50%;
+    max-width: 75%;
   }
   .navbar-toggler {
     position: fixed;
     top: 2%;
     right: 2%;
   }
-}
+} */
+
