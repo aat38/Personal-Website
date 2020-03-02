@@ -4,7 +4,7 @@ body {
   font-family: Courier New, arial, sans-serif;
 }
 
-/* nav {
+nav {
   background-color: white;
 }
 ul.nav {
@@ -53,7 +53,7 @@ ul.nav {
     padding: 0rem;
   }
 }
- */
+
 nav a:link,
 nav a:visited {
   text-decoration: none;
