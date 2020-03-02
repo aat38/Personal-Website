@@ -5,6 +5,11 @@
   .navbar-brand img {
     max-width: 50%;
   }
+  .navbar-toggler-icon {
+    max-width: 1rem;
+    max-height: 1rem;
+  }
+
 }
 @media (max-width: 800px) {
   h1 {
