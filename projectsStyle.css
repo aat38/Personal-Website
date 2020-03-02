@@ -2,15 +2,21 @@
   h1{
     font-size: 80%;
   }
-/*   .navbar-brand img{
+  .navbar-brand img{
     max-width: 50%
-  } */
+  }
 }
 @media (max-width: 800px){
   h1{
     font-size: 130%;
   }
-/*   .navbar-brand img{
+  .navbar-brand img{
     max-width: 80%
-  } */
+  }
 }
+
+.navbar-toggler{
+  right : 5%;
+  display: block;
+  position: absolute;
+ }
