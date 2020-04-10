@@ -1,146 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Experience - Amber Torrise</title>
+    <title>Selected Coursework - Amber Torrise</title>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
     <nav>
       <ul class="nav">
         <li><a href="index.html">Home</a></li>
         <li><a href="twotruths.html">Two Truths and a Lie</a></li>
         <li><a href="projects.html">Projects</a></li>
-        <li>Experience</li>
-        <li><a href="courses.html">Selected Coursework</a></li>
+        <li><a href="experience.html">Experience</a></li>
+        <li>Selected Coursework</li>
       </ul>
     </nav>
-    <div
-      class="expButtons"
-      style=" display: flex;flex-direction: row;justify-content: center; padding-top:10rem;"
-    >
-      <button
-        id="relButt"
-        class="button-group-experience"
-        style="box-shadow:inset 0 0 30px #a57fa8"
-      >
-        Relative
-      </button>
-      <button id="irrelButt" class="button-group-experience">
-        From Previous Discipline
-      </button>
-    </div>
 
-    <div class="experience" style="display:inline-block;text-align:left;">
-      <table>
-        <thead>
-          <tr>
-            <th>
-              Position
-            </th>
-            <th>
-              Employer
-            </th>
-            <th>
-              Responsibilities
-            </th>
-            <th>
-              Technologies
-            </th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr class="relPara">
-            <td>Research Technician</td>
-            <td>Center for Bioengineering, University of Pittsburgh</td>
-            <td>
-              Configured hardware and software systems to visualize value-based
-              choice tasks <br /><br />
-              Automated three biological image processing tasks via ImageJ
-              scripts written in Python <br /><br />
-              Groomed and statistically analyzed large datasets in Matlab
-            </td>
-            <td>
-              Matlab: Psychtoolbox, Python, ImageJ
-            </td>
-          </tr>
-          <tr class="irrelPara" style="display:none">
-            <td>Research Technician</td>
-            <td>Center for Bioengineering, University of Pittsburgh</td>
-            <td>
-              Created an electrophysiological data acquisition system for
-              optogenetic manipulations on rhesus macaques performing choice
-              tasks to later anticipate user choice by recognition of preemptive
-              neuronal signaling patterns.<br />
-              Performed in-vivo, Two-Photon Microscopy image collection, data
-              analysis, and significance testing of rodent brain microglia to
-              assess the rate of microglial encapsulation of cortical implants
-              between vehicle and administered cohorts.<br />
-              Cortically implanted 80+ murine animals with single shank Michigan
-              Electrodes.
-            </td>
-            <td>
-              Matlab: Psychtoolbox, Python, ImageJ
-            </td>
-          </tr>
-          <tr class="irrelPara" style="display:none">
-            <td>Undergraduate Student Researcher</td>
-            <td>Lab of Dr. Aizenstein, Western Psychiatric Hospital</td>
-            <td>
-              Processed functional and structural MRI data utilizing Matlab to
-              study the effects of white matter hyperintensities with aging and
-              to elucidate a potential link between morphological
-              characteristics and the state of disease progression
-            </td>
-            <td>
-              Matlab, 3D-Slicer, Bash
-            </td>
-          </tr>
-        </tbody>
-      </table>  
-	<div style="width:100%;display: flex;justify-content: center;">    
-	<a
-        target="_blank"
-        href="personalSiteAssets/2020.pdf"
-      >CV</a>
-</div> 
+  <body>
+    <div name="course list">
+      <ul class="courses">
+        <li>Data Analytics</li>
+        <li>Database Management</li>
+        <li>Data Structures</li>
+        <li>Algorithm Implementation</li>
+        <li>Discrete Structures</li>
+        <li>Computer Networking Laboratory</li>
+        <li>Web Technologies and Standards</li>
+      </ul>
     </div>
     <footer>
-      <a
-        target="_blank"
-        href="https://www.linkedin.com/in/amber-torrise-360132192/"
-      >
+      <a target="_blank" href="https://www.linkedin.com/in/amber-torrise-360132192/">
         <img
-	   src="personalSiteAssets/linkedin.png"
+src="personalSiteAssets/linkedin.png"
           alt="Amber Torrise on Linkedin"
           height="50"
       /></a>
     </footer>
-    <script>
-      document.getElementById("relButt").addEventListener("click", displayRel);
-      document
-        .getElementById("irrelButt")
-        .addEventListener("click", displayIrrel);
-      function displayIrrel() {
-        document.getElementsByClassName("relPara")[0].style.display = "none";
-        document.getElementsByClassName("irrelPara")[0].style.display = "";
-        document.getElementsByClassName("irrelPara")[1].style.display = "";
-
-        document.getElementById("irrelButt").style =
-          "box-shadow:inset 0 0 30px #a57fa8";
-        document.getElementById("relButt").style = "box-shadow:''";
-      }
-      function displayRel() {
-        document.getElementsByClassName("irrelPara")[0].style.display = "none";
-        document.getElementsByClassName("irrelPara")[1].style.display = "none";
-
-        document.getElementsByClassName("relPara")[0].style.display = "";
-        document.getElementById("relButt").style =
-          "box-shadow:inset 0 0 30px #a57fa8";
-        document.getElementById("irrelButt").style = "box-shadow:''";
-      }
-    </script>
   </body>
 </html>
