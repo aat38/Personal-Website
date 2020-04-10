@@ -1,1 +1,1 @@
-The redone page for this assignment was the "projects" page. There I added a logo, a hamburger menu and button, and used bootstrap and css media queries to make the page more responsive.
+
